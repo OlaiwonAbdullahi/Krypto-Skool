@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo-1{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.container-fluid{
+    height: 50px;
+
+}
+.navbar-brand{
+    color: aqua;
+    font-family: "Sora" ,sans-serif;
+}
+ .nav-link{
+    color: aqua;
+}
+.nav-link:hover{
+    color: whitesmoke;
+}
+.navbar-toggler{
+    color: aqua;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+}
+
+.loginBtn{
+    border-color: aqua;
+    border-radius: 40px;
+}
+.loginBtn:hover{
+    background-color: whitesmoke;
+}
+header{
+    background-color: black;
+    height: 4rem;
+    font-family:"Montserrat" , sans-serif;
+    z-index: 99999999;
+    box-shadow: inset 2px aquamarine;
+}
+
+h1,h2{
+    font-family:"Sora" , sans-serif;
+    color: cyan;
+}
+body{
+    background-color: black;
+}
+p{
+    color: grey;
+}
+.heroImg{
+    border-radius: 20%;
+    height: 16rem;
+}
