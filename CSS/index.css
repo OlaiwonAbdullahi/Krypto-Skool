@@ -42,7 +42,7 @@ body{
     border-radius: 40px;
 }
 .loginBtn:hover{
-    background-color: whitesmoke;
+    background-color: rgb(226, 190, 142);
 }
 header{
     background-color: black;
