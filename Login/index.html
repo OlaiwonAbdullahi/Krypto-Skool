@@ -46,21 +46,35 @@
   </header>  
 
   <section>
-    <div class="justify-content-center align-center text-center mt-3">
-            <h2 class="myH2">lorem</h2>
+    <div class="justify-content-center align-center text-center mt-5 container" style="width: 40em;">
+            <h2 class="myH2"></h2>
             <form>
-                <div class="mb-3">
-                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="mb-3 input-group">
+                    <span class="input-group-text" id="basic-addon1"  style="background-color: black; border-color:aqua ; color: aqua;" ><i class="bi bi-envelope"></i></span>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email Address"
+                  style="background-color: black; border-color:aqua ;color: aqua;">
                 </div>
-                <div class="mb-3">
-                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-key"></i></span>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+                <div class="mb-3 input-group">
+                    <span class="input-group-text" id="basic-addon1" style="background-color: black; border-color:aqua ;color: aqua;"><i class="bi bi-key"></i></span>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password"
+                  style="background-color: black; border-color:aqua ;color: aqua;">
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="login" class="btn loginBtn" style="color: aqua;">Login</button>
               </form>
     </div>
   </section>
+<style>
+    ::placeholder {
+  color: aqua;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: aqua;
+}
+</style>
+  <script></script>
 </body>
+
 </html>
