@@ -6,6 +6,10 @@
     max-height: 100%;
 }
 
+
+body{
+    font-family: "Montserrat" ,sans-serif;
+}
 .logo-1{
     width:50px;
     height: 50px;
@@ -52,6 +56,9 @@ h1,h2{
     font-family:"Sora" , sans-serif;
     color: cyan;
 }
+h1{
+    font-size: 3rem;
+}
 body{
     background-color: black;
 }
@@ -61,4 +68,12 @@ p{
 .heroImg{
     border-radius: 20%;
     height: 16rem;
+}
+
+.wrapper{
+    color: grey;
+}
+li{
+    list-style: none;
+    
 }
