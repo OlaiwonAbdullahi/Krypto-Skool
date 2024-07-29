@@ -52,7 +52,7 @@ header{
     box-shadow: inset 6px aquamarine;
 }
 
-h1,h2{
+h1,h2,h6 {
     font-family:"Sora" , sans-serif;
     color: cyan;
 }
@@ -80,6 +80,11 @@ li{
     margin-left: auto;
     margin-right: auto;
     
+}
+input{
+    background-color: black; 
+    border-color:aqua ;
+    color: aqua;
 }
 @media only screen and (max-width: 600px) {
     h1 {
