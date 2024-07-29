@@ -94,3 +94,9 @@ input{
 #exampleInputEmail1::placeholder{
     color: aqua;
 }
+#exampleInputName::placeholder{
+    color: aqua;
+}
+#Message::placeholder{
+    color: aqua;
+}
