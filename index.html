@@ -11,6 +11,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="./CSS/index.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <header>
@@ -47,15 +48,15 @@
 
   <div class="row mb-3 text-left mt-5">
     <div class="col-md-8 themed-grid-col">
-      <h1 style="line-height: 1.5em;">
-        Unlock the Future of Finance: Master <span style="background-color: rgb(226, 190, 142); border-radius: 30px;">Cryptocurrency</span>  and <span style="background-color: rgb(226, 190, 142); border-radius: 30px;">Blockchain</span> with Us.</h1>
+      <h1 style="line-height: 1.5em;" data-aos="fade-left">
+        Unlock the Future of Finance: Master <span style="color: rgb(226, 190, 142); border-radius: 30px;">Cryptocurrency</span>  and <span style="color: rgb(226, 190, 142); border-radius: 30px;">Blockchain</span> with Us.</h1>
       <p class="mt-3">
         "At Krypto Skool, we unlock the future of finance as you start your cryptocurrency and blockchain with us. </p>
-        <button class="btn loginBtn" style="border-color: aqua;color: aqua; width: 12rem;"><a style="text-decoration: none;">Learn More    <i class="bi bi-arrow-right-square"></i></a></button>
+        <button class="btn loginBtn mt-3" style="border-color: aqua;color: aqua; width: 12rem;"><a style="text-decoration: none;">Learn More    <i class="bi bi-arrow-right-square"></i></a></button>
     </div>
     <div class="col-md-4 themed-grid-col text-center mt-3">
 
-      <img src="Assets/crypto-man.jpg" alt="a-crypto-man" class="heroImg">
+      <img src="Assets/crypto-man.jpg" alt="a-crypto-man" class="heroImg" data-aos="fade-right">
     </div>
   </div>
 
@@ -163,7 +164,7 @@
           </form>
         </div>
         <br><br>
-        <div class="col-6 col-md-4 themed-grid-col order-1-sm text-center mx-auto mt-5">
+        <div class="col-6 col-md-4 themed-grid-col order-1-sm text-center mx-auto mt-5 align-right">
             
           <h3 style="color: aqua;">Follow our Socials</h3>
             <div class="socials" style="color: grey;">
@@ -184,19 +185,16 @@
               <div>
                 <h4 style="color: aqua;">Krypto Skool</h4>
 
-                <div>
-                  <ul style="display: flex; gap: 3rem;" class="">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Courses</li>
-                    <li>Contact</li>
-                  </ul>
-                </div>
+                
                 <hr style="color: aqua;">
                 <p class="text-center">All Right Reserved &copy; 2024  </p>
               </div>
             </div>
       </section>
         <script src="./JS/index.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 </body>
 </html>
