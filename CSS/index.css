@@ -91,3 +91,6 @@ input{
       font-size: 1.5rem;
     }
   }
+#exampleInputEmail1::placeholder{
+    color: aqua;
+}
