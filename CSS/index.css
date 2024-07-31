@@ -25,6 +25,13 @@ body{
 }
  .nav-link{
     color: aqua;
+    background-color: black;
+    
+}
+.navbar-nav{
+    background-color: black;
+    width: 100%;
+   max-height: max-content;
 }
 .nav-link:hover{
     color: whitesmoke;
